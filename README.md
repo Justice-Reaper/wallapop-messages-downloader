@@ -1,4 +1,4 @@
-# wallapopMessagesDownloader
+# wallapop-messages-downloader
 A Python script to download and save Wallapop inbox messages using the Wallapop API. Authenticates with a bearer token, fetches paginated conversations, and writes sorted text messages with timestamps and item details to a text file
 
 ## Obtain Bearer Token
@@ -9,8 +9,8 @@ To get the bearer token, we need to log in to Wallapop, open the developer tools
 ## Help Panel
 
 ```
-# python wallapopMessagesDownloader.py -h
-usage: wallapopMessagesDownloader.py [-h] -t TOKEN
+# python wallapop-messages-downloader -h
+usage: wallapop-messages-downloader [-h] -t TOKEN
 
 Download Wallapop messages
 
@@ -22,7 +22,7 @@ options:
 # Usage
 
 ```
-# python wallapopMessagesDownloader.py -t eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0NDU0NjQzODIiLCJkZXZpY2UiOiIzNWRkZGVhZi04Nzg5LTRlMmItYWQ5NS1hY2EyOWYyMjgzYzQiLCJpYXQiOjE3NTEzOTc4OTAsImV4cCI6MTc1MTQ4NDI5MH0.yPRvZjoQxTITb9Z2xgjkaUxrKxwdrItiTfo3eY63wRo-DseTpJHAEqpMb7TcvFzcai7tT3p-OgMLYrJWINV1xG71IRqdKyOF9LEM-cWVVro3sQulHMf5tqf9r-T0MLj2Jv9yTUJDyjoDAeu1NECqhTb68VDwQXFZ8LLRHqldhXhVHo0hU10yqJBsQGB-X_PBKpn_r9aUDqmf9VxOPMFYr7ArcFlsbMaZD-KOQ-vXjyv5GGIGBCgmGU2Yr-xXUAoObuOFIpQ-khQJ83LkcU7mMKa-e2pPid5wgBPoesx1wHlbsFGrMFLqSiW7lZRcB_oWA569KtG7_BMcMR8Tyl36NQ 
+# python wallapop-messages-downloader -t eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0NDU0NjQzODIiLCJkZXZpY2UiOiIzNWRkZGVhZi04Nzg5LTRlMmItYWQ5NS1hY2EyOWYyMjgzYzQiLCJpYXQiOjE3NTEzOTc4OTAsImV4cCI6MTc1MTQ4NDI5MH0.yPRvZjoQxTITb9Z2xgjkaUxrKxwdrItiTfo3eY63wRo-DseTpJHAEqpMb7TcvFzcai7tT3p-OgMLYrJWINV1xG71IRqdKyOF9LEM-cWVVro3sQulHMf5tqf9r-T0MLj2Jv9yTUJDyjoDAeu1NECqhTb68VDwQXFZ8LLRHqldhXhVHo0hU10yqJBsQGB-X_PBKpn_r9aUDqmf9VxOPMFYr7ArcFlsbMaZD-KOQ-vXjyv5GGIGBCgmGU2Yr-xXUAoObuOFIpQ-khQJ83LkcU7mMKa-e2pPid5wgBPoesx1wHlbsFGrMFLqSiW7lZRcB_oWA569KtG7_BMcMR8Tyl36NQ 
 Messages saved to 'wallapop_messages.txt'
 ```
 
